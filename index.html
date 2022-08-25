@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mairala</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <style>
+        *, body{
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-[#303030] py-[25px] text-white relative">
+        <div class="md:container xl:max-w-[1140px] mx-auto px-6">
+            <div class="flex justify-between items-center">
+                <div class="text-3xl">
+                 <img src="./logo.png" alt="">
+                </div>
+                <ul class="justify-between [&>li_a]:pb-2 [&>.active_a]:border-b-4 [&>.active_a]:border-[#7b6c63] [&>li_a]:text-xs [&>li_a]:uppercase [&>li_a:hover]:border-[#7b6c63] [&>li_a:hover]:border-b-4  flex hidden flex-col gap-4 absolute z-20 bg-[#303030] w-full left-0 top-[100%] p-6 shadow-lg md:shadow-none md:flex md:flex-row md:static md:gap-8 md:w-auto md:p-0" id="burger-menu">
+                   <li class="active"><a href="">Home</a></li>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Portfolios</a></li>
+                   <li><a href="">Team</a></li>
+                   <li><a href="">Blog</a></li>
+                   <li><a href="">Contact</a></li>
+                </ul>
+                <span class="text-3xl cursor-pointer md:hidden" id="burger-menu-toggle">
+                   <span id="show">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M21 18H3v-2h18v2Zm0-5H3v-2h18v2Zm0-5H3V6h18v2Z"/></svg>
+                   </span>
+                   <span class="hidden" id="close">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"/></svg>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-black pt-[86px] pb-[77px] lg:pt-[186px] lg:pb-[177px] text-white bg-cover bg-center bg-no-repeat relative overflow-hidden">
+        <div class="absolute left-0 -top-3 bottom-0 w-full">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img class="h-screen w-full object-cover" src="./bg.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="h-screen w-full object-cover" src="./bg.png">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="h-screen w-full object-cover" src="./bg.png">
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="container xl:max-w-[1140px] mx-auto px-6 relative z-10">
+            <p class="text-xl md:text-[24px] uppercase mb-[18px]">Grab Your Copy Of</p>
+            <h1 class="text-4xl md:text-5xl md:leading-[3.5rem] lg:text-[66px] lg:leading-[75px] uppercase">The <span class="text-[#7b6c63]">Premium</span> Quality <br> PSD Template For <span class="text-[#7b6c63]">free</span></h1>
+            <a href="" class="bg-[#27231f] uppercase py-3 px-[30px] md:py-[18px] md:px-[60px] inline-block mt-[50px] text-base rounded-sm hover:bg-white hover:text-[#27231f] transition-all">
+                <span class="flex items-center gap-2">
+                    Download
+                <span><span class="iconify" data-icon="foundation:download"></span></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <section class=" pt-[40px] pb-[100px] md:pt-[80px] md:pb-[200px]">
+        <div class="container xl:max-w-[1140px] mx-auto px-6 mb-[110px]">
+            <div class="text-center mb-[70px]">
+                <h3 class="text-[24px] uppercase text-[#7b6c63] mb-4">Services We provide</h3>
+                <p class="mx-auto max-w-[920px] text-base font-medium">Volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo 
+                    consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
+                    feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent  </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-6 md:gap-4">
+                <div class="text-center">
+                    <figure class="grid place-items-center mb-[20px]">
+                        <img src="./icon-1.png" alt="">
+                    </figure>
+                    <h4 class="text-lg uppercase text-[#363636] mb-[20px] font-medium">ConsulTancy</h4>
+                    <p class="text-[15.96px] text-[#949494] leading-[29px] font-medium">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam </p>
+                </div>
+                <div class="text-center">
+                    <figure  class="grid place-items-center mb-[20px]">
+                        <img src="./icon-2.png" alt="">
+                    </figure>
+                    <h4 class="text-lg uppercase text-[#363636] mb-[20px] font-medium">Maketing</h4>
+                    <p class="text-[15.96px] text-[#949494] leading-[29px] font-medium">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam </p>
+                </div>
+                <div class="text-center">
+                    <figure  class="grid place-items-center mb-[20px] font-medium">
+                        <img src="./icon-3.png" alt="">
+                    </figure>
+                    <h4 class="text-lg uppercase text-[#363636] mb-[20px] font-medium">Reaserch</h4>
+                    <p class="text-[15.96px] text-[#949494] leading-[29px] font-medium">Claritas est etiam processus dynaicus qui sequitur mutationem consuetudium lectorum. Mirum est notare quam </p>
+                </div>
+            </div>
+        </div>
+        <div class="container xl:max-w-[1140px] mx-auto px-6">
+            <div class="text-center mb-[70px]">
+                <h2 class="text-[39.95px] uppercase text-[#7b6c63] mb-[30px] font-medium">Our Blog</h2>
+                <hr class="mx-auto border-t-4 border-[#7b6c63] w-[80px] mb-[30px]">
+                <p class="max-w-[434px] mx-auto text-[17.98px] text-[#212121] font-medium text-[#212121]">Nam liber tempor cum soluta nobis eleifend option 
+                    congue nihil imperdiet doming id quod mazim</p>
+            </div>
+
+            <div class="max-w-[1030px] mx-auto [&>*:not(:last-child)]:mb-[50px] md:grid md:gap-[50px]">
+                <div class="[&>*:first-child]:mb-[40px] md:md:[&>*:first-child]:mb-0 md:grid md:grid-cols-2 gap-[50px] md:gap-[40px] lg:gap-[70px]">
+                    <div class="[&>*_.swiper-button-prev]:text-white/80 [&>*_.swiper-button-next]:text-white/80">
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                <img class="h-[270px] w-full object-cover" src="./camera.png">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="h-[270px] w-full object-cover" src="./camera.png">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="h-[270px] w-full object-cover" src="./camera.png">
+                              </div>
+                            </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                    <div class="text-left">
+                       <p class="text-[15.99px] text-[#7b6c63] mb-2 font-medium">10 April 2014</p>
+                       <h3 class="text-[23.98px] mb-4 leading-[29px]">Typi non habent claritatem insitam</h3>
+                       <p class="text-base text-[#949494] font-medium leading-[29px]">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                        esse molestie consequat, vel illum dolore eu feugiat nulla 
+                        facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+                    </div>
+                </div>
+                <div class="grid md:grid md:grid-cols-2 gap-[50px] md:gap-[40px] lg:gap-[70px]">
+                    <div class="text-right order-2 md:order-1">
+                        <p class="text-[15.99px] text-[#7b6c63] mb-2 font-medium">10 April 2014</p>
+                        <h3 class="text-[23.98px] mb-4 leading-[29px]">Typi non habent claritatem insitam</h3>
+                        <p class="text-base text-[#949494] font-medium leading-[29px]">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                         esse molestie consequat, vel illum dolore eu feugiat nulla 
+                         facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <img class="h-[270px] w-full object-cover" src="./camera.png">
+                    </div>
+                </div>
+                <div class="grid md:grid md:grid-cols-2 gap-[50px] md:gap-[40px] lg:gap-[70px]">
+                    <div>
+                        <img class="h-[270px] w-full object-cover" src="./camera.png">
+                    </div>
+                    <div class="text-left">
+                        <p class="text-[15.99px] text-[#7b6c63] mb-2 font-medium">10 April 2014</p>
+                        <h3 class="text-[23.98px] mb-4 leading-[29px]">Typi non habent claritatem insitam</h3>
+                        <p class="text-base text-[#949494] font-medium leading-[29px]">Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                         esse molestie consequat, vel illum dolore eu feugiat nulla 
+                         facilisis at vero eros et accumsan et iusto odio dignissim qui [...]</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#f5f5f5] py-[85px]">
+        <div class="container xl:max-w-[1140px] mx-auto px-6">
+            <div class="text-center mb-[70px]">
+                <h2 class="text-[39.95px] uppercase text-[#7b6c63] mb-[30px] font-medium">Contact</h2>
+            </div>
+            <form action="" class="max-w-[785px] mx-auto">
+                <div class="grid gap-[26px] grid-cols-2">
+                    <input placeholder="Name*" class="p-[15px] w-full border-t-4 outline-none border-black bg-transparent placeholder:text-[#5b5b5b]/80 placeholder:font-medium placeholder:tracking-[2px]" type="text">
+                    <input  placeholder="Email*" class="p-[15px] w-full border-t-4 border-black bg-transparent outline-none placeholder:text-[#5b5b5b]/80 placeholder:font-medium placeholder:tracking-[2px]" type="text">
+                    <textarea placeholder="Message.." class="border-b border-black p-[15px] col-span-2 w-full border-t-4 outline-none border-black bg-transparent placeholder:text-[#5b5b5b]/80 placeholder:font-medium placeholder:tracking-[2px]" name="" id="" cols="10" rows="5"></textarea>
+                </div>
+                <div class="grid place-items-center mt-[30px]">
+                    <a href="" class="bg-transparent border-2 border-[#27231f] uppercase py-[10px] px-[55px] inline-block text-base text-[#27231f] hover:bg-[#27231f] hover:text-white transition-all">
+                        Submit
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-[#222222] py-[50px] text-[#929292]">
+        <div class="container xl:max-w-[1140px] mx-auto px-6">
+           <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-[20px]">
+              <div>
+                <figure class="mb-6">
+                    <img src="./logo-footer.png" alt="">
+                </figure>
+                <p class="mb-[35px] text-sm font-medium leading-[29px]">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.</p>
+                <p class="text-sm font-medium leading-[29px]">eugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta </p>
+              </div>
+              <div>
+                <h4 class="text-[17.98px] uppercase text-[#c2c2c2] mb-[26px] font-bold">Recent Posts</h4>
+                <div>
+                  <div class="border-b border-[white]/10 pb-[26px] mb-[26px]">
+                    <div class="text-[10px] mb-[10px] uppercase">March 30, 2014</div>
+                    <div class="text-sm font-bold">Duis autem vel eum iriure dolor</div>
+                  </div>
+                  <div class="border-b border-[white]/10 pb-[26px] mb-[26px]">
+                    <div class="text-[10px] mb-[10px] uppercase">March 30, 2014</div>
+                    <div class="text-sm font-bold">Duis autem vel eum iriure dolor</div>
+                  </div>
+                  <div class="border-b border-[white]/10 pb-[26px]">
+                    <div class="text-[10px] mb-[10px] uppercase">March 30, 2014</div>
+                    <div class="text-sm font-bold">Duis autem vel eum iriure dolor</div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h4 class="text-[17.98px] uppercase text-[#c2c2c2] mb-[26px] font-bold">Twiter Feeds</h4>
+                <div>
+                  <div class="border-b border-[white]/10 pb-[26px] mb-[26px]">
+                    <div class="text-[10px] mb-[10px]">about 2 days ago <span class="text-[#7b6c63] font-bold text-sm">@kristianplatt</span> </div>
+                    <div class="text-sm font-bold">Good work buddy</div>
+                  </div>
+                  <div class="border-b border-[white]/10 pb-[26px] mb-[26px]">
+                    <div class="text-[10px] mb-[10px]">about 2 days ago <span class="text-[#7b6c63] text-sm">@kristianplatt</span> </div>
+                    <div class="text-sm font-bold">Good work buddy</div>
+                  </div>
+                  <div class="border-b border-[white]/10 pb-[26px]">
+                    <div class="text-[10px] mb-[10px]">about 2 days ago <span class="text-[#7b6c63] text-sm">@kristianplatt</span> </div>
+                    <div class="text-sm font-bold">Good work buddy</div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <div>
+                    <h4 class="text-[17.98px] uppercase text-[#c2c2c2] mb-[26px] font-bold">Our Address</h4>
+                    <p class="text-sm text-[#929292] leading-[29px] ">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta </p>
+                </div>
+
+                <ul class="text-sm mt-auto [&>li]:mb-1">
+                    <li class="flex items-center gap-2">
+                        <span><span class="iconify" data-icon="carbon:location-filled"></span></span>
+                        Moonshine St. 14/05 Light, Jupiter</li>
+                    <li class="flex items-center gap-2">
+                        <span><span class="iconify" data-icon="ion:call-sharp"></span></span>
+                        +00 (123) 456 78 90</li>
+                    <li class="flex items-center gap-2">
+                        <span><span class="iconify" data-icon="fluent:mail-16-filled"></span></span>
+                        first.last@gmail.com</li>
+                </ul>
+              </div>
+           </div>
+        </div>
+    </footer>
+
+    <div class="py-[26px] bg-[#1c1c1c] text-white">
+        <div class="container xl:max-w-[1140px] mx-auto px-6">
+            <div class="text-center">
+                <div class="text-sm md:text-base text-[#595959] font-medium">
+                    ©2014 Imran Khan All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        const burger_menu_toggle = document.querySelector('#burger-menu-toggle');
+        const burger_menu = document.querySelector('#burger-menu');
+        const show = document.querySelector('#show');
+        const close = document.querySelector('#close');
+
+        burger_menu_toggle.addEventListener('click', ()=> {
+             burger_menu.classList.toggle('hidden');
+
+             if(burger_menu.classList.contains('hidden')){
+                show.classList.remove('hidden');
+                close.classList.add('hidden');
+             }
+             else{
+                show.classList.add('hidden');
+                close.classList.remove('hidden');
+             }
+            
+        });
+    </script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            loop: true,
+       
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            autoplay: {
+                delay: 5000,
+            },
+
+        });
+    </script>
+
+</body>
+</html>
